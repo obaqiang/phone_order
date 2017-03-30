@@ -1,0 +1,41 @@
+.rec_left{
+	background: #dedae5;
+}
+.rec_left div{
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.18rem;
+}
+.content_desc{
+	background: #fff;
+	overflow: hidden;
+	padding-bottom: 0.1rem;
+	border-bottom: 1px solid #ddd;
+}
+.content_desc_img{
+	width: 0.6rem;
+	border-radius: 0.1rem;
+	float: left;
+	margin-left: 0.1rem;
+	margin-top: 0.1rem;
+}
+.content_desc_info{
+	display: inline-block;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+.content_desc_right{
+	float: right;
+	text-align: right;
+	margin-top: 0.1rem;
+	margin-right: 0.1rem;
+}
+.content_title{
+	height: 0.3rem;
+	font-size: 0.16rem;
+	line-height: 0.3rem;
+	padding-left: 0.1rem;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="format-detection" content="telephone=no" />
+		<title> 美味家园</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<link href="css/index_more.css" rel="stylesheet">
+		<link href="css/index_list.css" rel="stylesheet">
+		<script src="js/html5shiv.min.js"></script>
+	</head>
+	<style>
+		html,
+		body {
+			background: #f2f2f2;
+		}
+	</style>
+
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 order_nav">
+					<img src="img/back.png" alt="" /> 美味家园
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-3 no_wb rec_left">
+					<div>推荐</div>
+					<div>推荐</div>
+					<div>推荐</div>
+					<div>推荐</div>
+					<div>推荐</div>
+					<div>推荐</div>
+					<div>推荐</div>
+					<div>推荐</div>
+				</div>
+				<div class="col-xs-9 no_wb">
+					<div class="rec_content">
+						<div class="content_title">
+							推荐
+						</div>
+						<div class="content_desc ye_2">
+							<img class="content_desc_img" src="img/lalatu.png" alt="" />
+							<div class="content_desc_info">
+								<span class="info_a">餐具</span><br />
+								<span class="info_b">必选</span><br />
+								<span class="info_c ye_1">
+									<span class="info_c_a info_c_b">不辣</span>
+									<span class="info_c_a">微辣</span>
+									<span class="info_c_a info_c_b">不辣</span>
+									<span class="info_c_a">微辣</span>
+									
+								</span>
+							</div>
+							<div class="content_desc_right">
+								<span class="list_prize">2元/份</span><br />
+								<img class="img_minus" src="img/jian-1@3x.png" alt="" />
+								<span class="list_num">1</span>
+								<img class="img_plus" src="img/jia-1@3x.png" alt="" />
+							</div>
+						</div>
+						<div class="content_desc">
+							<img class="content_desc_img" src="img/lalatu.png" alt="" />
+							<div class="content_desc_info">
+								<span class="info_a">餐具</span><br />
+								<span class="info_b">必选</span><br />
+								<span class="info_c">
+								<span class="info_c_a info_c_b">不辣</span>
+								<span class="info_c_a">微辣</span>
+								<span class="info_c_a">特辣</span>
+								</span>
+							</div>
+							<div class="content_desc_right">
+								<span class="list_prize">2元/份</span><br />
+								<img class="img_minus" src="img/jian-1@3x.png" alt="" />
+								<span class="list_num">1</span>
+								<img class="img_plus" src="img/jia-1@3x.png" alt="" />
+							</div>
+						</div>
+						<div class="content_desc">
+							<img class="content_desc_img" src="img/lalatu.png" alt="" />
+							<div class="content_desc_info">
+								<span class="info_a">餐具</span><br />
+								<span class="info_b">必选</span><br />
+								<span class="info_c">
+								<span class="info_c_a info_c_b">不辣</span>
+								<span class="info_c_a">微辣</span>
+								<span class="info_c_a">特辣</span>
+								</span>
+							</div>
+							<div class="content_desc_right">
+								<span class="list_prize">2元/份</span><br />
+								<img class="img_minus" src="img/jian-1@3x.png" alt="" />
+								<span class="list_num">1</span>
+								<img class="img_plus" src="img/jia-1@3x.png" alt="" />
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="row nav_btm">
+				<div class="col-xs-9 no_wb money_left">
+					合计：<span>30元</span>
+				</div>
+				<div class="col-xs-3 no_wb money_right">
+					下单
+				</div>
+
+			</div>
+
+		</div>
+
+		<script src="js/jquery-1.11.3.min.js "></script>
+		<script src="js/bootstrap.js "></script>
+		<script>
+			//各个屏幕大小适配
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+					};
+
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+
+	</body>
+
+</html>
